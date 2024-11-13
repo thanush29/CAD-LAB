@@ -1,0 +1,172 @@
+Exp No: 3  DIMENSION ANNOTATION SYMBOLS WELDING, FINISHING, 
+THREADING, TEXT BILL 
+OF MATERIALS, TITLE BLOCK 
+ 
+Aim: To implement annotation symbols using CAD. 
+ 
+WELDING SYMBOL: 
+1. Click Annotate tab Symbols panel Welding Symbol. 
+2. Select an object to attach the weld symbol to. 
+3. If you attached the symbol to a line, in the drawing area, specify the start point for the leader. If you 
+attached the object to an arc, circle, ellipse or spline, skip to the next step. 
+4. Specify one or more points to define the vertices of the leader and press ENTER. 
+5. In the Symbol tab, specify the general appearance of the symbol as required. 
+To align the position of the arrow side data, the identification line, or direction of the symbol tail to 
+the left, in the Options section, select Flip symbol. 
+To stagger the alignment of intermittent fillet welds (or ANSI edge welds) on both sides, in the 
+Options section, select Stagger. 
+To add the all-around designation, click the All-Around button. 
+To add a tail to the welding symbol, click the Add Note Tail button. To add a process from a 
+predefined list: 
+a. Click Add Process. 
+b. To prefix process numbers with the statement Process ISO 4063, select the Prefix Process number 
+with “Process ISO 4063-”check box. 
+Note: This option is not available if the current drafting standard is ANSI. 
+c. Double-click the processes to add. 
+d. Click Close. 
+To edit processes by entering details using the keyboard: 
+a. In the box beneath Add Process, click at the position you want to edit. 
+b. Enter the process details. 
+To delete a process, select it and press the DELETE key To draw a box around the note, select Add 
+note frame. 
+Note: This button is not available if the current drafting standard is ANSI. 
+6. To specify arrow side data: 
+a. Click the Weld Type button on the arrow side and select a weld symbol. The available options 
+change to match the symbol you select. 
+b. Specify parameters. 
+7. To specify other side data: 
+a. Click the Weld Type button on the other side and select a weld symbol. The available options 
+change to match the symbol you select. 
+b. Specify parameters. 
+8. Click OK. 
+Note: To clear all data in the Weld Symbol dialog box, click Clear. 
+ 
+ 
+ 
+FINISHING SYMBOL: 
+1. Click Insert > Surface Finish. The GET SYMBOL menu appears. 
+2. Select one of the following: 
+Name—Selects a symbol from the SYMBOL NAMES menu containing a list of symbols that are 
+currently in the drawing. 
+Pick Inst—Selects a symbol by picking an instance of the symbol in the drawing. Retrieve— 
+11  
+Retrieves a symbol definition from disk by picking the name from the name list 
+menu. Move along the directory tree, when needed, to select the symbol. 
+3. Select one of these from the INST ATTACH menu: 
+Leader—Creates the symbol with a leader. Select a command from the ATTACH TYPE menu. Entity—
+ Attaches the symbol to an entity. 
+Normal—Places the symbol normal to an entity. The symbol is positioned with the vertical reference 
+pointing up. A yellow arrow, normal to the entity, indicates the symbol positioning. 
+No Leader—Creates a symbol without a leader. 
+4. Respond to the prompts for the commands you have selected. 
+5. Specify a value for the surface roughness. The symbol is placed on the drawing with the size relative to 
+the default text height. 
+To modify the value of a surface finish, use Value on the MODIFY DRAW menu. 
+ 
+ 
+THREADING SYMBOL: 
+1. Open the file named Tutorial 4 YourProjectName.dwg. We are going to cut M10 x 1.5 threads. Check 
+the Machinery’s Handbook for complete information on thread forms. 
+2. Turn off all layers except the Rod Sketch and Rod Solid layers and make the Rod Solid layer the active 
+layer. Revolve the Rod Sketch. 
+3. Turn on the External Threading Tool and Helix Path Layers, Make the Helix Path layer the active layer. 
+Select the Helix tool and then select the Center snap point of the end of the rod. 
+4. Then select the intersection of the corner of the cutting tool as the base radius. Press enter to accept the 
+same distance at the top radius. 
+5. RMB (Right Mouse Button) select turn Height and enter a height of 1.5 for the pitch of the thread. 
+6. And then track along the axis going a couple of turns beyond the end of the rod. 
+7. Start the sweep tool and select the cutting tool sketch. Then RMB and select Alignment and No. Select 
+the Helical path. 
+8. If you are going to rapid prototype the part via an stl file you might want to make a copy of the thread 
+cut shifted along the axis the desired clearance distance. 
+9. Subtract the Sweep and make sure the rod is on the Rod Solid Layer and turn off the other layers. 
+10. Turn off the layers except the Nut Sketch and Nut Solid Layers and make the Nut, Solid layer the active 
+layer. 
+11. Extrude the hexagon to the center of the second circle. 
+12. Press pull the hole through the part. 
+13. Extrude the larger circle that is tangent to the hexagon with a taper of 45 deg. 
+14. Use the intersection tool to derive the intersection between the two solids. This cuts a chamfer on the nut. 
+15. Repeat the same procedure on the other side. 
+16. Add a 0.75mm chamfer to both ends of the hole in the nut. 
+17. Turn the internal threading tool layer on. Create a new helix path for the internal threading tool. 
+18. Sweep the cut tool and subtract as was done with the external thread. 
+19. That completes the internal and external cur threads or the use of threading symbol. 
+ 
+ 
+TITLE BLOCK: 
+1. First, locate or download a Title Block template. There are some basic templates that are already included 
+in the AutoCAD or from the Download Finder Page. 
+2. Open up a blank drawing and click on the “Layout” tab or Right-click on the Layout 1 and select Page 
+Setup Manager to enter your plot settings. 
+  
+12  
+ 
+For Windows: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For Mac: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Click “Modify” to open the dialog box. The most important thing to pay attention to is the paper size, so 
+make sure to set it up so that it matches the size of the Title Block template. 
+Select “Landscape” on the Drawing Orientation panel and hit “OK”. 
+4. Click on the “Insert” tab and then on the “Insert” button on the far left side of the ribbon. 
+13  
+5. For Windows: 
+ 
+ 
+For Mac: 
+ 
+From the pop up menu, click on Browse and select your template. Leave the check boxes as they are and only 
+check the “Specify on screen” box. Click “OK”. 
+ 
+For Windows: 
+ 
+  
+14  
+For Mac: 
+ 
+6. Position the Title Block. Note that the dashed line represents the print border, so position the Title Block 
+within it. 
+7. Save the layout template. See the following documentation To Save a Layout

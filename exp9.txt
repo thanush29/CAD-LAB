@@ -1,0 +1,60 @@
+Exp No: 9 PLUMMER BLOCK 
+ 
+Aim: To develop the part drawing of Plummer Block from isometric to orthographic representation. 
+ 
+ 
+ 
+PROCEDURE: 
+ 
+• The drawings of Body, Cap, Bearing top & Bottom half, Nuts and shaft are 
+studied 
+• 3D models of Body, Cap, Bearing top & Bottom half Nuts and shaft are created 
+using Pro-E software. 
+• The Assembly of Plummer block was created as per the drawing specification. 
+• Detail all the components of the assembly as per the drawing standards. 
+ 
+COMMANDS USED: 
+Sketcher Commands: Line, Circle, Arc, Fillet, Trim, Smart Dimension, 
+Relations, Show, and View 
+Features Commands: Extrude and Cut, Revolve, Fillet/Round, Chamfer, Hole - 
+Simple, Pattern Fastening Features 
+Assembly Commands: Insert, Component, Existing Part/Assembly 
+Mating Commands: Coincident, Concentric, Distance 
+ 
+ 
+  
+21  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Result: Thus the part drawing of the Plummer Block from isometric to orthographic representation is drawn 
+successfully.

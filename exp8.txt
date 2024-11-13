@@ -1,0 +1,38 @@
+Exp No: 8 KNUCKLE JOINT 3D DRAWING 
+ 
+Aim: To develop the part drawing of Knuckle Joint from orthographic to isometric representation. 
+ 
+ 
+PROCEDURE: 
+ 
+1. Create the parts using Extrude and Revolve commands 
+2. For constructing holes and cutout, use hole command and cutout commands 
+3. After constructing each part save it as a separate part file with extension. par. 
+4. Assembly the various parts using the various assembly constrains (planer, design, mate, axial 
+align, connect etc). 
+5. Save the assembly as a file with extension .asm. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Result: Thus the part drawing of the Knuckle Joint from Orthographic to Isometric representation is drawn 
+successfully.

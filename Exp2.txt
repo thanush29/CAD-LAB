@@ -1,0 +1,132 @@
+Exp No: 2  BASIC COMMANDS IN CAD DRAW, MODIFY AND DISPLAY 
+ 
+ 
+Aim: To implement draw, modify and display basic commands using CAD. 
+ 
+DRAW COMMANDS: 
+These AutoCAD commands are essential for creating precise geometric shapes. Mastering them can significantly increase 
+your productivity in CAD design. 
+ 
+LINE: It is used to draw a straight line between two points. Simply type “LINE” into the command line and select the starting 
+point. Then select the endpoint. You can also specify the length and angle of the line by typing in specific values. 
+ 
+CIRCLE: It draws a circle or an arc. To use this command, type “CIRCLE” into the command line and specify the center point 
+and radius. You can also create an arc by specifying the start and end angles. 
+ 
+ARC: It draws an arc of a circle. To use this command, type “ARC” into the command line. Then specify the center point, radius, 
+and start and end angles. 
+ 
+OFFSET: This creates a parallel line or curve at a specific distance from an existing line or curve. To use this command, type 
+“OFFSET” into the command line and select the object you want to offset. Lastly, specify the distance. 
+ 
+TRIM: The TRIM command trims off parts of an object that extend beyond another object. To use this command, type “TRIM” 
+into the command line and select the objects you want to trim. Then select the object that will be used as the cutting edge. 
+ 
+EXTEND: The EXTEND command extends an object to meet another object. To use this command, type “EXTEND” into the 
+command line and select the object you want to extend. Then select the object that will be used as the boundary edge. 
+ 
+FILLET: The FILLET command rounds off the corners of two intersecting objects. To use this command, type “FILLET” into 
+the command line, select the first object, and select the second object. Then specify the radius of the fillet. 
+ 
+CHAMFER: It creates a beveled edge between two intersecting objects. To use this command, type “CHAMFER” into the 
+command line, select the first object, and select the second object. Then specify the distance and angle of the chamfer. 
+ 
+MIRROR: This command is used to create a mirror image of an object. To use this command, type “MIRROR” into the 
+command line and select the object you want to mirror. Then select the mirror line. 
+ 
+ARRAY: The ARRAY command creates a pattern of multiple objects. To use this command, type “ARRAY” into the command 
+line, select the object you want to duplicate, and specify the number of rows and columns. Then specify the spacing between the 
+objects. 
+ 
+RECTANGLE: The RECTANGLE command draws rectangles. To use this command, type “RECTANGLE” in the command 
+line. Specify the first corner point and then specify the opposite corner point. 
+ 
+POLYLINE: The POLYLINE command draws a series of connected lines and arcs. To use this command, type “POLYLINE” in 
+the command line and specify the first point. Then continue adding points. 
+ 
+HATCH: The HATCH command fills an enclosed area with a pattern. To use this command, type “HATCH” in the command 
+line and select the area to be hatched. Then specify the hatch pattern and scale. 
+ 
+DIMENSION: The DIMENSION command adds dimensions to your drawing. To use this command, type “DIMENSION” in the 
+command line and select the objects to be dimensioned. Then specify the location and type of dimension. 
+ 
+MTEXT: The MTEXT command adds multiline text to your drawing. To use this command, type “MTEXT” in the command line 
+and specify the insertion point. Then enter your text. 
+ 
+MODIFY COMMANDS: 
+ 
+ADCENTER/ADC: This command allows you to insert or manage content such as blocks, hatch patterns, and xrefs. You can 
+access the content from a single dialog box, making it easier to find and use. 
+ 
+ALIGN/AL: This command allows you to align objects with other objects in 2D and 3D. You can align objects based on different 
+criteria such as endpoints, centers, and edges. 
+  
+8  
+BASE: This command allows you to alter the base point of a drawing without changing its origin. You can move the base point to a 
+different location. It can be useful when working with blocks or other objects. 
+ 
+B PARAMETER/PARAM: This command allows you to add a parameter with grips to a dynamic block definition. You can use 
+this command to make a block more flexible. 
+ 
+BREAK: This command allows you to create a break (or gaps) in objects at one or two points. You can use this command to break 
+up a line or object into smaller parts. 
+ 
+BSAVE: This command allows you to save the current block definition. You can use this command to save a block you created or 
+modified. 
+ 
+BURST: This command allows you to explode a block but retain its attribute settings and layer definition. You can use this 
+command to convert a block back into individual objects. 
+ 
+CHA/CHAMFER: This command allows you to add slanted edges to sharp corners of objects. You can use this command to add 
+a bevel or chamfer the corner of a shape. 
+ 
+COPYBASE: This command allows you to copy an object according to a base point. You can use this command to make a copy of 
+an object. 
+ 
+DIVIDE: This command allows you to divide objects into multiple equal parts. You can use this command to create evenly-spaced 
+points or lines. 
+ 
+F/FILLET: This command allows you to add rounded corners to the sharp edges of objects. You can use this command to make 
+the corners of a shape smoother. 
+ 
+LA/LAYERS: This command allows you to open the Layer Properties Manager Palette. It allows you to tweak the settings for 
+layers. You can use this command to manage the properties of different layers. 
+ 
+MA/MATCHPROPERTIES: This command allows you to copy the properties of one object onto another. You can use this 
+command to quickly apply the same properties to multiple objects. 
+ 
+MOCORO: This command allows you to move, copy, rotate, and scale an object in one command. You can use this command to 
+perform multiple modifications to an object at once. 
+ 
+OVERKILL: This command allows you to remove overlapping or unnecessary objects from your work. You can use this command 
+to clean up your drawing and improve its performance. 
+ 
+PURGE: This command allows you to remove unused objects from a drawing. You can use this command to remove any objects 
+that are no longer needed in your drawing. 
+ 
+SC/SCALE: This command allows you to change the scale of an object. You can use this command to resize an object without 
+changing its proportions. 
+ 
+SCALETEXT: This command allows you to change the scale of the text. You can use it to resize text to fit a specific space. 
+TEXTFIT: This command allows you to alter the size of a piece of text. You can use it to resize text to fit a specific area. 
+TEXTTOFRONT: Brings annotations to the front. 
+TORIENT: Changes the orientation of the text. 
+ 
+TR/TRIM: Trims a shape or line. 
+ 
+UNITS: Alters the unit settings of your drawing. 
+ 
+X/EXPLODE: Breaks up an object into its individual components—i.e., a polyline into simple lines. 
+ 
+XBIND/XB: Binds the definitions of named objects in an xref. 
+ 
+ 
+DISPLAY COMMANDS: 
+ 
+ZOOM: Increases or decreases the apparent size of objects in the current viewport. Choose, Click, Type – All, Extents, 
+Previous, Window, Number, Number X, Center, Dynamic.  
+9  
+ 
+PAN: Shifts the location of a view. Choose, Click, Type. REDRAW AND REGEN: Redraw refreshes the current view 
+BLIPMODE: Controls the display of marker blips. When Blip mode is ON, a temporary mark in the shape of a plus sign (+) 
+appears where points are specified. BLIPMODE is OFF by default.

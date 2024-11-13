@@ -1,0 +1,196 @@
+Exp No: 1 INTRODUCTION TO COMPUTER AIDED DESIGN 
+ 
+ 
+Introduction 
+ 
+CATIA V5 is a powerful software package yet has a relatively short learning curve. One of 
+the reasons for the short learning curve is that it is fully Windows compatible and the processes are 
+consistent across the workbenches, toolbars and tools. If you learn the basics of a particular 
+workbench the same process can be used for more complex problems. Several tools are   used in 
+more than one workbench. 
+ 
+The lessons in this workbook present basic real life design problems (when possible) and 
+the workbenches, toolbars, and tools required to solve the problem. The lessons present this 
+information with step-by-step instructions. For every step there are numerous possible methods 
+of accomplishing the same thing. The steps are to be used as guides to solving the design problem. 
+You are encouraged to try new and different methods, find the method that works for you. 
+ 
+The CATIA Acronym 
+ 
+The CATIA acronym stands for: “Computer Aided Three Dimensional Interactive 
+Application”. V5 stands for Version 5. 
+ 
+A Brief History of CATIA 
+ 
+CATIA was developed by Dassault Systemes in the early 1980’s and quickly emerged as 
+an industry leader. CATIA V5 is different from V4 and earlier versions because it was programmed 
+to take advantage of the MS Windows capability while maintaining the UNIX power and stability. 
+As a user, making the transition to CATIA V5 from CATIA V4 is a huge step. CATIA V5 does 
+not resemble CATIA V4 at all; it is new. For Experienced CATIA V4 users often seem to struggle 
+with the change at first, until they can let go of the old and embrace the new. The learning curve 
+has been greatly reduced, while maintaining the power and significantly improving the flexibility 
+and integration. 
+With CATIA V5 the designer is not limited by the software but is limited only by his/her 
+own ability to put the software to work. CATIA V5 is the engineering package that will lead 
+industry into the world of Product Life Cycle Management (PLM). 
+ 
+CATIA Version 5 Basic Concepts 
+Upon completion of this course the student should have a full understanding of the following 
+topics: 
+ - Managing models (opening, closing, saving, etc) - Solutions, Workbenches and Toolbars - Tools, Options - Tools, Customize - Manipulation - View Toolbar  
+2  
+Setting Up 
+1. Start-up is usually very slow….wait patiently. 
+2. Menu bar: Tools/Options/Infrastructure/Part Infrastructure/Display …. Display in Specification 
+Tree, check all buttons ON. 
+3. Menu bar: Tools/Options/Display/Performance/3D Accuracy and 2D Accuracy set to 0.01. 
+Press OK to save. 
+4. Menu bar: Tools/Options/Mechanical Design/Sketcher/Constraint …. Make sure ‘Creates the 
+geometrical constraints’ and ‘Creates the dimensional constraints’ are checked ON. 
+5. Create a Folder named as your student (Catia_zID) and put all your files for the tutorial in it 
+which will be collected at the end of each class. 
+ 
+6. Setting up steps 1-4 need to be done in every Tutorial Class. 
+ 
+ 
+ 
+ 
+Fig. 2: The screen that appears after closing the initial product file while starting CATIA 
+ 
+ 
+INTRODUCTION 
+ 
+1. Part Design: Creating positive features from a sketch 
+2. Part Design: Creating negative features from a sketch 
+3. Part Design: Dress Up features including Threads 
+4. Plumbing Part 
+5. Examination of Complex Part 
+6. Assembly: Manipulation and Constraints 
+7. Structural Joint 
+8. Mechanical Assembly 
+ 
+Background: CATIA, Version 5, Release 20, Dassault Systems 
+Acronym for: Computer Aided Three dimensional Interactive Application  
+3  
+Workbenches 
+1. Part Design workbench 
+2. Wireframe and Surface Design workbench 
+3. Assembly Design Workbench 
+4. Drafting workbench 
+ 
+ 
+Fig. 1: Basic workbenches in CATIA 
+CAT Part 
+ 
+CAT Part is a file extension associated with all the files that are created in the Sketcher, 
+Part Design, and Wireframe and Surface Design workbenches. 
+CAT Product 
+ 
+CAT Product is a file extension associated with all the files that are created in the 
+Assembly Design workbench. 
+ 
+CAT Drawing 
+ 
+CAT Drawing is a file extension associated with all the files that are created in the Drafting 
+workbench. 
+ 
+Mouse Operations 
+1. Select: Left (L) Button Click. For multiple selections hold the CTRL key along with 
+theLeft Button 
+2. Contextual menu: Right (R) Button Click 
+3. Object Manipulation: Mouse wheel, alone or in combination with L or R button - Hold the middle button and move right or left to pan the object - Press the centre and the right and hold to rotate the object - To zoom hold the middle button and the CTRL key 
+Toolbars 
+ 
+1. Unpack and repack specific toolbars by dragging  
+4  
+2. Expand tools with sub-bars by selecting the black triangle (V) 
+3. If you accidentally close, restore the toolbars with Menu bar: 
+Tools/Customize/Toolbars/Restore All Contents and Restore position. 
+ 
+ 
+1. Standard Toolbar 
+This toolbar is common to all workbenches of CATIAV5. 
+ 
+ 
+Fig. 3: The Standard toolbar 
+ 
+2. View Toolbar 
+The buttons in the View toolbar are used for manipulating the view of the model. 
+ 
+Fig. 4: The View toolbar 
+ 
+ 
+3. Sketcher Toolbar 
+The Sketcher button in the sketcher toolbar is used to invoke the Sketcher workbench. After 
+choosing the Sketcher button, select a plane, or a planar face to invoke the Sketcher workbench. 
+You can select the plane and invoke the Sketcher or vice-versa. 
+ 
+ 
+Fig. 5: The Sketcher toolbar 
+ 
+4. Profile Toolbar 
+The tools in the Profile toolbar are used to draw the sketches. It is one of the most important 
+toolbars in the Sketcher workbench. 
+ 
+Fig. 6: The Profile toolbar  
+5  
+ 
+5. Constraint Toolbar 
+The tools in the Constraint toolbar are used to apply constraints to the geometric entities and 
+assign dimensions to a drawn sketch. 
+ 
+Fig. 7: The Constraint toolbar 
+ 
+6. Operation Toolbar 
+The tools in the Operation toolbar are used to edit the drawn sketches. 
+ 
+Fig. 8: The Operation toolbar 
+ 
+7. Sketch Tools Toolbar 
+The tools in the Sketch Tools toolbar are used to set the sketcher settings such as setting the 
+snap, switching between the standard and construction elements, and so on. 
+ 
+ 
+ 
+Fig. 9: The Sketch Tools toolbar 
+ 
+Once the basic sketch is complete, you need to convert it into a feature. Choose the ‘Exit 
+Workbench (icon on the right side of the toolbar, an arrow pointing up)’ button from the 
+ 
+Workbench toolbar and switch back to the Part Design workbench. 
+The following toolbars of the Part Design workbench are discussed next. 
+ 
+1. Sketch-Based Features Toolbar 
+The tools in the Sketch-Based Features toolbar are used to convert a sketch drawn in the 
+Sketcher workbench into a feature. 
+  
+6  
+ 
+Fig. 10: The Sketch-Based Features toolbar 
+ 
+2. Dress-Up Features Toolbar 
+The tools in the Dress-Up Features toolbar are used to apply the dress-up features such as fillet, 
+chamfer, shell, and so on. 
+ 
+Fig. 11: The Dress-Up Features toolbar 
+3. Transformation Features Toolbar 
+The tools in the Transformation Features toolbar are used to apply the transformation features 
+to the part such as moving, mirror, pattern, and so on. 
+ 
+Fig. 12: The Transformation Features toolbar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Result: Hence the 2d drawing has been successfully implemented using Computer Aided Design Lab. 

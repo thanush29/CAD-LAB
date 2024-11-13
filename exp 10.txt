@@ -1,0 +1,110 @@
+Exp No: 10   BOOLEAN OPERATIONS USING CAD 
+Aim: To implement Boolean Commands using CAD. Boolean operation was named after George 
+Boole, who first defined an algebraic system of logic in the mid-19th century. 
+Working in 3D usually involves the use of solid objects. At times you may need to combine multiple 
+parts into one, or remove sections from a solid. AutoCAD has some commands that make this easy 
+for you. These are the Boolean operations as well as some other helpful commands for solids 
+editing. 
+ 
+CONTEN
+ T 
+INPUT I
+ C
+ O
+ N 
+DESCRIPTION 
+ 
+ 
+UNION 
+ 
+ 
+UNION/U
+ NI 
+ 
+ 
+ 
+Joins two or more fields 
+into creating one based on 
+the total geometry of all 
+ 
+ 
+SUBTRA
+ CT 
+ 
+ 
+SUBTRAC
+ T//SU 
+ 
+ 
+ 
+Subtracts one or more 
+solids from another 
+creating a solid based on 
+the remaining geometry. 
+ 
+ 
+INTERS
+ ECT 
+ 
+ 
+INTERSE
+ CT/IN 
+ 
+ 
+ 
+Creates a single solid 
+from one more solids 
+based on the intersected 
+geometry 
+ 
+ 
+EXTRU
+ DE 
+FAC
+ E 
+ 
+ 
+SOLIDEDI
+ T 
+ 
+ 
+ 
+Allows you to increase the 
+size of a solid by extruding 
+out one of its faces 
+ 
+ 
+SLICE 
+ 
+ 
+SLICE 
+ 
+ 
+ 
+ 
+Slices a solid along a 
+cutting plane 
+ 
+ 
+3D 
+ALIGN 
+ 
+ 
+3DALIGN 
+ 
+ 
+ 
+Aligns two 3D Objects in 
+3D Space. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Result: Thus Boolean Commands have been successfully implemented using CAD.

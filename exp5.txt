@@ -1,0 +1,39 @@
+Exp No: 5 GIB AND COTTER JOINT 2D DRAWING 
+ 
+Aim: To develop the part drawing of Gib and Cotter Joint in the orthographic representation. 
+ 
+ 
+ 
+LIST OF COMMANDS: 
+ 
+Line - To draw a line of required dimension. 
+Rectangle - To draw rectangle shape with specified length and width 
+Poly line - To draw multiple lines of required dimensions. 
+Trim - To remove unwanted or excess dimensions of the element. 
+Zoom - To enlarge or reduce the view of component. 
+Fillet - To join sharp corners with a curve. 
+Mirror - To reflect the image on other side of the object. 
+Erase - To erase any object. 
+Hatch - Used to hatch enclosed area. 
+Join - To join two objects. 
+Dimension - To specify the product size using the annotations of dimension tool 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Result: Thus the part drawing of the Gib and Cotter joint is drawing in orthographic view.

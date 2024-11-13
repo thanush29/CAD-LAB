@@ -1,0 +1,108 @@
+Exp No: 11 
+               STRUCTURAL ANALYSIS OF BEAM WITH DIFFERENT BOUNDARY 
+ 
+ 
+                        Aim: To perform analysis of Beam structure with different boundary. 
+ 
+The following sequence lists the steps involved in defining a continuous span line beam, and 
+analyzing it to produce dead load effects, temperature and shrinkage effects and envelopes of 
+moving load effects. Links are included to the relevant help topics. More complete step by step 
+guidance is contained in the Examples documentation. 
+ 
+ 
+       Step 1: Start new Project 
+ 
+                                      In the Main Menu select File | New | Blank Project 
+ 
+ 
+In the Main Menu select Data | Structure Type | Line Beam 
+ 
+Step 2: Add Design Beams 
+ 
+In the Navigation Pane select the Design Beams group. 
+ 
+Click on the Add button and either define a new Design Beam of required type or add an existing 
+Design Beam. If adding an existing beam, this beam can remain as a linked file (useful if used in more 
+than one project) or embedded in the project by clicking on the Break Link button. 
+ 
+For new Design Beam creation refer to the geometry steps of the Data Preparation Overview for Steel 
+Composite beams, Prestressed beams, or Reinforced Concrete beams. 
+ 
+Step 3: Define the Span details 
+ 
+In the Navigation Pane select the Structure Definition group. 
+ 
+Click on the Structure Geometry icon and populate the Line Beam Geometry form. 
+ 
+Step 4: Assign the Design Beams to the relevant Line Beam Spans 
+ 
+Click on the Active Group Function Create Section and Beam Groups to create one Structure 
+Property group for each design beam. 
+ 
+Click on a Structure Property beam group item. 
+ 
+In the graphics window select a gray (unassigned) span (Note the 'Select' drop-down should be at its 
+default Create setting). Green spans are already assigned to other beams. 
+ 
+Warnings are given if appropriate and the Design Beam is assigned to the span (which then becomes 
+red). 
+ 
+Make any edits to the Structure Properties: Beam form and click OK to save the assignment. 
+ 
+Continue until Design Beams are assigned to all spans. 
+ 
+Step 5: Generate Loads and Analyze 
+ 
+In the Main Menu select Data | Automated Loading, and click on Analyze 
+  
+24  
+Step 6: Analyze for Dead Loads, Temperature effects and Shrinkage / Creep effects 
+ 
+On the same form, click on the Dead and SDL Loading tab, and Analyze 
+ 
+Step 7: Transfer Results to the Design Beams for design / code checking 
+ 
+On the same form, click on the Transfer Beam Load button, and select a beam by pointing and 
+clicking on the associated span. Then complete the Transfer Mapped Results form for assigning 
+Analysis results to Design Beam effects, and click the Transfer to Design Beam button (or the Save 
+to Design Beam file button if the Design Beam is linked to the project). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Result: Thus analysis of structure have been performed using different boundary on CAD.
